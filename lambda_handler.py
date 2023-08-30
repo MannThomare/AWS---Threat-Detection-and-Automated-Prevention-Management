@@ -1,6 +1,6 @@
 import boto3
 ec2 = boto3.resource('ec2')
-isolated_sg = 'sg-09edba92e2ae7e358' # ID of Security group “compromised-ec2-sg”
+isolated_sg = 'sg-064e0c508d1a95010' # ID of Security group “compromised-ec2-sg”
 
 def lambda_handler(event, context):
  # Method to change the security group of the affected EC2 instance
